@@ -4,7 +4,7 @@ export default function HowItWorksSection() {
   return (
     <section
       id="comment-ca-marche"
-      className="relative px-4 sm:px-6 lg:px-[120px] pt-12 pb-40 md:pb-64 md:pt-20 lg:pt-24 bg-white"
+      className="relative px-4 sm:px-6 bg-clip-content lg:px-30 pt-12 pb-40 md:pb-64 md:pt-20 lg:pt-24 bg-white"
       aria-labelledby="how-it-works-heading"
     >
       <Image
@@ -47,7 +47,7 @@ export default function HowItWorksSection() {
                 alt=""
                 width={400}
                 height={400}
-                className="absolute w-40 h-40 lg:w-[400px] lg:h-[400px] -top-16 -right-16 lg:-top-48 lg:-right-32 "
+                className="absolute w-40 h-40 lg:w-100 lg:h-100 -bottom-16 left-1/2 -translate-x-1/2 lg:-top-48 lg:-right-32 "
                 aria-hidden="true"
               />
 

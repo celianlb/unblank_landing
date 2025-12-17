@@ -14,7 +14,7 @@ export default function InspirationSection() {
     >
       {/* Vague bleue décorative */}
       <Image
-        className="absolute top-0 left-0"
+        className="absolute top-0 left-0 hidden md:block"
         src={"/cta/star.svg"}
         width={150}
         height={150}
