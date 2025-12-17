@@ -17,7 +17,7 @@ export default function HeroSection() {
             width={360}
             height={350}
             priority
-            className="ml-auto h-40 w-auto md:h-full md:w-auto"
+            className="mx-auto md:ml-auto h-40 w-auto md:h-full md:w-auto"
           />
           {/* Contenu texte */}
           <div className="lg:pr-8">

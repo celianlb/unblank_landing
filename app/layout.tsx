@@ -65,7 +65,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr">
+    <html lang="fr" className=" scroll-smooth">
       <head>
         <link rel="stylesheet" href="https://use.typekit.net/wgb3eql.css" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -74,7 +74,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#ffffff" />
       </head>
-      <body className="antialiased">{children}</body>
+      <body className="antialiased overflow-x-hidden">{children}</body>
     </html>
   );
 }
