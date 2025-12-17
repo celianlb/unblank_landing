@@ -4,7 +4,7 @@ import Button from "../ui/Button";
 export default function HeroSection() {
   return (
     <section
-      className="relative bg-white px-4 sm:px-6 lg:px-[120px] pt-32 pb-16 md:pt-60 md:pb-20 overflow-hidden"
+      className="relative bg-white px-4 sm:px-6 lg:px-30 pt-32 pb-16 md:pt-60 md:pb-20 overflow-hidden"
       aria-labelledby="hero-heading"
     >
       <div className="max-w-5xl mx-auto">
@@ -17,7 +17,7 @@ export default function HeroSection() {
             width={360}
             height={350}
             priority
-            className="ml-auto h-full w-auto"
+            className="ml-auto h-40 w-auto md:h-full md:w-auto"
           />
           {/* Contenu texte */}
           <div className="lg:pr-8">
